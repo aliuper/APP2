@@ -64,16 +64,25 @@ Modern, high-performance IPTV playlist editor with background processing and sma
 
 3. **App Icons Setup**
 
-   Create or download app icons and place them in the following locations:
+   The project includes pre-downloaded app icons in the following locations:
 
-   - `assets/icons/icon.png` (1024x1024 pixels)
-   - `assets/icons/icon_adaptive.png` (1024x1024 pixels, transparent background)
+   **App Icons:**
+   - `assets/icons/icon.png` (512x512 pixels) - Main app icon
+   - `assets/icons/icon_adaptive.png` - Adaptive icon for Android
 
-   The icon should:
-   - Be 1024x1024 pixels
-   - Use a TV/playlist related design
-   - Have good contrast and be easily recognizable
-   - Work well at small sizes
+   **Additional Icons:**
+   - `assets/images/iptv_icon.png` - TV icon for home screen
+   - `assets/images/playlist_icon.png` - Playlist icon for group selection
+   - `assets/images/antenna.png` - Antenna/satellite icon
+   - `assets/images/setting.png` - Settings icon
+   - `assets/images/tv_broadcast.png` - TV broadcast icon
+   - `assets/images/live_tv.png` - Live TV icon
+
+   **Icon Requirements:**
+   - If you want to replace icons: 1024x1024 pixels, PNG format
+   - Use TV/playlist/streaming related designs
+   - Good contrast and easily recognizable
+   - Works well at small sizes
 
 4. **Generate app icons**
    ```bash

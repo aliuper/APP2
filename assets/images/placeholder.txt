@@ -1,0 +1,22 @@
+# IPTV Editor Assets
+
+Bu klasör projenin görsel dosyalarını içerir.
+
+## Görsel Listesi:
+
+1. **icon.png** - Ana uygulama ikonu (1024x1024)
+2. **icon_adaptive.png** - Adaptif ikon (1024x1024)
+3. **iptv_icon.png** - TV/İPTV ikonu
+4. **playlist_icon.png** - Playlist ikonu
+5. **antenna.png** - Antena/uydu ikonu
+6. **setting.png** - Ayarlar ikonu
+7. **tv_broadcast.png** - TV yayın ikonu
+8. **live_tv.png** - Canlı TV ikonu
+
+## Öneri:
+Eğer indirme işlemi başarısız olursa, aşağıdaki sitelerden benzer ikonlar indirebilirsiniz:
+- https://icons8.com
+- https://www.flaticon.com
+- https://iconfinder.com
+
+Arama kelimeleri: "tv", "playlist", "streaming", "broadcast", "antenna", "satellite"

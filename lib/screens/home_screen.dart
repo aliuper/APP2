@@ -41,10 +41,17 @@ class HomeScreen extends ConsumerWidget {
                               ),
                             ],
                           ),
-                          child: const Icon(
-                            Icons.tv_rounded,
-                            size: 60,
-                            color: Colors.white,
+                          child: Image.asset(
+                            'assets/images/iptv_icon.png',
+                            width: 60,
+                            height: 60,
+                            errorBuilder: (context, error, stackTrace) {
+                              return const Icon(
+                                Icons.tv_rounded,
+                                size: 60,
+                                color: Colors.white,
+                              );
+                            },
                           ),
                         ),
                         const SizedBox(height: 20),

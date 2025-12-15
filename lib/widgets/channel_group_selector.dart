@@ -291,12 +291,22 @@ class _ChannelGroupSelectorState extends State<ChannelGroupSelector> {
                                             : const Color(0xFFF1F5F9),
                                         borderRadius: BorderRadius.circular(8),
                                       ),
-                                      child: Icon(
-                                        Icons.tv,
+                                      child: Image.asset(
+                                        'assets/images/playlist_icon.png',
+                                        width: 20,
+                                        height: 20,
                                         color: isSelected
                                             ? const Color(0xFF6366F1)
                                             : const Color(0xFF64748B),
-                                        size: 20,
+                                        errorBuilder: (context, error, stackTrace) {
+                                          return Icon(
+                                            Icons.tv,
+                                            color: isSelected
+                                                ? const Color(0xFF6366F1)
+                                                : const Color(0xFF64748B),
+                                            size: 20,
+                                          );
+                                        },
                                       ),
                                     ),
                                   ],
