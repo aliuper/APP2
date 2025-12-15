@@ -1,0 +1,69 @@
+name: iptv_editor
+description: High-performance IPTV Playlist Editor with modern UI
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # HTTP Requests
+  http: ^1.1.2
+  dio: ^5.4.0
+
+  # File Operations
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # UI/UX & Animations
+  animate_do: ^3.1.2
+  google_fonts: ^6.1.0
+  flutter_staggered_animations: ^1.1.1
+  loading_animation_widget: ^1.2.0
+
+  # File Picker
+  file_picker: ^6.1.1
+
+  # URL Launcher
+  url_launcher: ^6.2.1
+
+  # Device Info
+  device_info_plus: ^9.1.1
+
+  # Shared Preferences
+  shared_preferences: ^2.2.2
+
+  # Icons
+  flutter_svg: ^2.0.9
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icons/icon_adaptive.png"
